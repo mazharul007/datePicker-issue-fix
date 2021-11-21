@@ -4,7 +4,7 @@
     <div class="form-group">
       <div class="input-group">
         <input formControlName="DOB" #dob class="form-control" id="dateOfBirthFormat" placeholder="mm/dd/yyyy" name="dp" [(ngModel)]="dateOffBirth" ngbDatepicker
-          #d="ngbDatepicker" (click)="d.open();toggleDatePicker()"
+          #d="ngbDatepicker" (click)="d.open();toggleDatePicker()" appMaskInput
            (input)="inputDateFRomCalender($event)">
           
         <span class="input-group-text" (click)="d.open()" onfocus="(this.type='date')">

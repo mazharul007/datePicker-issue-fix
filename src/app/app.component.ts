@@ -33,7 +33,8 @@ export class AppComponent {
 
   
   ngOnInit(): void {
-    testDateFormatter();
+    
+    // testDateFormatter();
 
 
     // let dtobDate = (this.patients.DOB != null) ? new Date(this.patients.DOB) : null;
