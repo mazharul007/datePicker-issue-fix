@@ -56,7 +56,7 @@ export class AppComponent {
   inputDateFRomCalender(e : any) {
     console.log("I am inputDateformatter");
     
-    let dateSplite = e.split("/");
+    let dateSplite = e.target.value.split("/");
     if (dateSplite.length == 3) {
       console.log("Month:" + dateSplite[0].length)
       console.log("Day:" + dateSplite[1].length)
